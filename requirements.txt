@@ -1,8 +1,5 @@
-streamlit
-keybert
-transformers
-sentence-transformers
-torch==2.0.1+cpu              # ← 指定官方 CPU 版 wheel
---extra-index-url https://download.pytorch.org/whl/cpu
-
-sentencepiece                 # HF 部分多語模型會用到
+streamlit           # Web UI
+keybert             # 關鍵詞抽取
+sentence-transformers   # 會自動帶入 torch
+sentencepiece       # MiniLM tokenizer 需要
+scikit-learn        # keybert 的 fallback 依賴
