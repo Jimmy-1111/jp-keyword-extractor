@@ -1,4 +1,6 @@
 import streamlit as st
+# 自動下載 unidic-lite 字典
+import unidic_lite
 from keybert import KeyBERT
 import pdfplumber
 
