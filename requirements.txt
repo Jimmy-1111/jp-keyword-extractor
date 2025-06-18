@@ -1,0 +1,6 @@
+streamlit
+keybert
+transformers
+fugashi
+ipadic
+pdfplumber
