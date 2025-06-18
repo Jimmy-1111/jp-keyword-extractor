@@ -1,5 +1,4 @@
-streamlit           # Web UI
-keybert             # 關鍵詞抽取
-sentence-transformers   # 會自動帶入 torch
-sentencepiece       # MiniLM tokenizer 需要
-scikit-learn        # keybert 的 fallback 依賴
+streamlit
+keybert
+sentence-transformers
+scikit-learn
