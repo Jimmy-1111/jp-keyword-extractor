@@ -1,7 +1,5 @@
 streamlit
 keybert
 transformers
-fugashi
-ipadic
+sentence-transformers
 pdfplumber
-unidic-lite
